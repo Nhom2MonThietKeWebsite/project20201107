@@ -1,0 +1,60 @@
+#container{
+    width: 800px;
+    margin: 20px auto;
+    font-size: 1.5em;
+    background-color: #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input[type=text],
+input[type=email],
+input[type=lanme],
+input[type=tel],
+input[type=age],
+input[type=date],
+input[type=week],
+fieldset,
+select,
+input[type=listuniversity]
+{
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+label{
+    color: black;
+    font-weight: bold;
+    margin-top: 16px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=lanme]:focus,
+input[type=tel]:focus,
+input[type=age]:focus,
+input[type=date]:focus,
+input[type=week]:focus{
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    border-left: 10px solid green;
+    border-bottom: 3px solid green;
+    box-shadow: 1px 2px 3px rgba(red, green, blue, 0.3);
+}
+input[type=submit],
+input[type=reset]
+{
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    opacity: 0.8;
+}
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+    opacity: 1;
+}
+textarea{
+    resize: vertical;
+}

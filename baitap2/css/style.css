@@ -1,0 +1,54 @@
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    margin: 20px auto;
+    font-size: 1.5em;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input[type=email],
+input[type=pass],
+input[type=repeatpass]{
+    background-color: rgb(236, 241, 248);
+    width: 90%;
+    padding: 15px 20px;
+    margin-top: 5px;
+    border: none;
+    font-weight: bold;
+}
+label {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 16px;
+}
+p{
+    font-size: 0.8em;
+}
+input[type=submit]
+{
+    margin-top: 16px;
+    font-size: large;
+    padding: 20px 115px;
+    background-color: rgb(177, 52, 52);
+    float: left;
+    border: none;
+    color: rgb(240, 240, 240);
+    opacity: 0.8;
+}
+input[type=reset]
+{
+    margin-top: 16px;
+    font-size: large;
+    padding: 20px 115px;
+    background-color: rgb(51, 129, 51);
+    border: none;
+    color: rgb(240, 240, 240);
+    opacity: 0.8;
+}
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+    opacity: 1;
+}

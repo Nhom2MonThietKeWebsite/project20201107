@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form action="" method="GET" target="_self">
+              <label for="fname">First name: </label>
+              <br>
+              <input type="text" id="fname" name="fname" value="Nguyen Minh" placeholder="Enter Firstname">
+ 
+              <br><br>
+              <label for="lname">Last name: </label>
+              <br>
+              <input type="text" id="lname" name="lname" value="" placeholder="Enter Lastname">
+              <br><br>
+              <label for="email">Email: </label>
+              <br>
+              <input type="text" id="email" name="email" value="" placeholder="Enter Email">
+              <br><br>
+              <label for="tel">Telephone: </label>
+              <br>
+              <input type="text" id="tel" name="tel" value="" placeholder="Enter Telephone">
+              <br><br>
+              <label for="age">Age: </label>
+              <br>
+              <input type="text" id="age" name="age" value="" placeholder="Enter Age" min="16" max="100">
+              <br><br>
+              <label for="birthday">Birthday: </label>
+              <br>
+              <input type="date" id="birthday" name="birthday" value="" placeholder="Enter ur birthday">    
+              <br><br>
+              <label for="week">Week: </label>
+              <br>
+              <input type="week" id="week" name="week" value="" placeholder="Enter Week">
+              <br><br>
+              <fieldset>
+                <legend>SEX</legend>
+                <input type="radio" id="male" name="sex" value="male" checked>
+                <label for="mail">Male</label>
+                <br>
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="female">Female</label>
+              </fieldset>
+              <br>
+              <fieldset>
+                    <legend>Feeling</legend>
+                    <input type="checkbox" id="food" name="food" value="food" checked>
+                    <label for="food">Food</label>
+                    <br>
+                    <input type="checkbox" id="sing" name="sing" value="sing">
+                    <label for="sing">Sing</label>
+                    <br>
+                    <input type="checkbox" id="dog" name="dog" value="dog">
+                    <label for="dog">Dog</label>
+                    <br>
+                    <input type="checkbox" id="cat" name="cat" value="cat">
+                    <label for="cat">Cat</label>
+                  </fieldset>
+                <br>
+              <label for="university">Choose University: </label>
+              <br>  
+              <select name="university" id="university">
+                   <option value="LHU">Lac Hong University</option>
+                   <option value="BKU">Bach Khoa University</option>
+                   <option value="KHU">Khoa Hoc Tu Nhien University</option>
+                   <option value="DNU">Dong Nai University</option>
+                   <option value="XHU">Khoa Hoc XHNV University</option>
+              </select>
+              <br><br>
+              <label for="university">Choose University: </label>
+              <br>
+              <input type="text" list="listuniversity">
+              <datalist id="listuniversity">
+                    <option value="LHU">Lac Hong University</option>
+                    <option value="BKU">Bach Khoa University</option>
+                    <option value="KHU">Khoa Hoc Tu Nhien University</option>
+                    <option value="DNU">Dong Nai University</option>
+                    <option value="XHU">Khoa Hoc XHNV University</option>
+        </datalist>
+            <br>
+            <br>
+            <textarea name="comment" id="comment" cols="90" rows="10" placeholder="Enter comment..."></textarea>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset">
+            
+
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>

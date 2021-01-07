@@ -1,0 +1,55 @@
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    margin: 20px auto;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input[type=username],
+input[type=pass]{
+
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+label{
+    margin-bottom: 20px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 16px;
+}
+input[type=submit]
+{
+    margin-top: 16px;
+    font-size: large;
+    padding: 10px 270px;
+    background-color: rgb(27, 131, 27);
+    border: none;
+    color: rgb(240, 240, 240);
+    opacity: 0.8;
+}
+#box{
+    border: 0.1px solid rgb(59, 59, 59);
+    width: 100%;
+    padding: 50px;
+    background-color: lightgrey ;
+}
+
+#left{
+    float: left;
+    padding: 10px;
+}
+#right{
+    float: right;
+}
+input[type=reset]{
+    margin-top: 16px;
+    font-size: large;
+    padding: 15px 25px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: rgb(240, 240, 240);
+    opacity: 0.8;
+}
